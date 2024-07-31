@@ -23,6 +23,7 @@ const EventDetail = () => {
 
   return (
     <div>
+        <h1>Xef Events</h1>
       <h1>{event.title}</h1>
       <p>{event.description}</p>
       <p>{new Date(event.date).toLocaleDateString()}</p>
